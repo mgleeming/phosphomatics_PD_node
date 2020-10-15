@@ -1,0 +1,15 @@
+{
+    "Guid": "E9A5DAF7-7AFE-4949-B243-39C64246BB88",
+    "Name": "Phosphomatics",
+    "Description": "Generate table compatible with Phosphomatics import",
+    "ImageLarge": "IMG_32x32.png",
+    "ImageSmall": "IMG_16x16.png",
+    "Version": 1,
+    "WorkflowType": "Consensus",
+    "ScriptProcessorArguments": {
+        "ExecutableCommandLineArguments": "%NODEARGS%",
+        "ExecutablePath": "prepare_phosphomatics_ct.exe",
+        "RequestedTablesAndColumns": "Peptide Groups; Modification Sites",
+        "UseRFriendlyNames": "true"
+    }
+}
